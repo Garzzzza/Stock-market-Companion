@@ -41,13 +41,13 @@ The yfinance library has its internal error handling. On the one hand this error
 
 **Testing The Input Gathering**
 
- is made by a function called get_input(). I test this function by mock a valid input, and then ensures correct data retrieval.
+ Is made by a function called get_input(). I test this function by mock a valid input, and then ensures correct data retrieval.
 
 **Testing The Data Gathering** 
 
-is made by 2 functions: get_stock_history(parameter) & get_dividend(parameter). These functions is tested by checking a fine retrieval of data for a valid ticker symbol as a parameter, and ensures this data is not empty. 
+Is made by 2 functions: get_stock_history(parameter) & get_dividend(parameter). These functions is tested by checking a fine retrieval of data for a valid ticker symbol as a parameter, and ensures this data is not empty. 
 
 **Testing The File Production** 
 
-is made by a function called plot_and_csv(2 parameters). This function is tested by checking that retrieval data from the API works. Then a creation of a plot image through the matplotlib.pyplot library and a creation of a csv files are being made. After that the existence of these 2 files are being verified, and if they exist, then a deletion of them is being made.
+Is made by a function called plot_and_csv(2 parameters). This function is tested by checking that retrieval data from the API works. Then a creation of a plot image through the matplotlib.pyplot library and a creation of a csv files are being made. After that the existence of these 2 files are being verified, and if they exist, then a deletion of them is being made.
 
